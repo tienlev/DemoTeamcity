@@ -7,6 +7,7 @@ using UnityEditor.Build.Reporting;
 
 public static class Builder
 {
+    [MenuItem("Builder/Build Android")]
     public static void BuildAndroid()
     {
         BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions();
