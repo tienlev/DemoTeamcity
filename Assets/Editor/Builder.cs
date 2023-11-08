@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,6 +19,10 @@ public static class Builder
 
         BuildReport report = BuildPipeline.BuildPlayer(buildPlayerOptions);
         BuildSummary summary = report.summary;
+        if (summary.result == BuildResult.Succeeded)
+        {
+            Console.WriteLine("Build Success!!!");
+        }
     }
 
     private static string[] GetBuildScenes()
