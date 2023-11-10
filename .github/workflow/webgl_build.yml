@@ -27,5 +27,4 @@ jobs:
         with:
           targetPlatform: WebGL
           unityVersion: 2022.3.4f1 # ここは各自プロジェクトに合わせて設定
-          # Dev Buildのメソッド呼び出し
           buildMethod: CustomBuild.DevBuildForCICD
