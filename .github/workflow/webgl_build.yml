@@ -26,4 +26,4 @@ jobs:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
           targetPlatform: WebGL
-          unityVersion: 2022.1.13f1 # ここは各自プロジェクトに合わせて設定
+          unityVersion: 2022.3.4f1 # ここは各自プロジェクトに合わせて設定
